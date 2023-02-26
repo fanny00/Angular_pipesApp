@@ -32,7 +32,7 @@ export class NoComunesComponent {
   }
 
   borrarCliente() {
-    this.clientes.shift();
+    this.clientes.pop();
   }
 
 }
