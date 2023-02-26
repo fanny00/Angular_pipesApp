@@ -11,5 +11,7 @@ export class BasicosComponent {
   nombreLower: string = 'fanny';
   nombreUpper: string = 'FANNY';
   nombreCompleto: string = 'fAnnY cAmpOS';
-  
+
+  fecha: Date = new Date(); // el día de hoy
+
 }
